@@ -1,0 +1,60 @@
+.place-card {
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 5px;
+    border: #0D6EFD;
+}
+
+button:hover{
+    padding: 5px;
+    transition-duration: 0.2s;
+}
+
+section:hover{
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fbb034); 
+}
+
+h1 {
+    font-size: 3em;
+    background-color: white;
+    border: 5px solid #ee0979;
+    padding-bottom: 1%;
+    border-radius: 15px;
+}
+
+h1:hover{
+    padding: 2%;
+    font-size: 3.2em;
+    transition-duration: 0.3s;
+}
+
+#fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 50%;
+    padding: 0%;
+    color: black;
+    margin: 0;
+    z-index: 1000;
+}
